@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="large_spacing">32dp</dimen>
+    <dimen name="small_spacing">8dp</dimen>
+    <dimen name="elections_list_height">300dp</dimen>
+    <dimen name="medium_spacing">16dp</dimen>
+    <dimen name="icon_dimen_representative_list">38dp</dimen>
+    <dimen name="spacing_20dp">20dp</dimen>
+    <dimen name="textsize_15sp">15sp</dimen>
+    <dimen name="textsize_12sp">12sp</dimen>
+
+    <!-- TODO: Add necessary dimension values -->s
+
+</resources>

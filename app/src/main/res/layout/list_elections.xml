@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="election"
+            type="com.example.android.politicalpreparedness.network.models.Election" />
+
+        <variable
+            name="clickListerner"
+            type="com.example.android.politicalpreparedness.election.adapter.ElectionListener" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{() -> clickListerner.onClick(election)}">
+
+        <TextView
+            android:id="@+id/txtElectionName"
+            style="@style/ListItemHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@{election.name}"
+            tools:text="VIP Test Election" />
+
+        <TextView
+            android:id="@+id/txtElectionDate"
+            style="@style/ListItemSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtElectionName"
+            android:text="@{election.electionDay.toString()}"
+            tools:text="00/00/0000 00:00:00" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
