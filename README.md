@@ -11,6 +11,11 @@ Political Preparedness is a mobile application that helps users stay informed ab
 - Testing for reliability and stability
 - Open to contributions
 
+![Capturar](https://github.com/hugo-andreassa/political-preparedness/assets/50621697/452f16fe-e765-43c1-b875-d677d558f194)
+![Capturar 2](https://github.com/hugo-andreassa/political-preparedness/assets/50621697/9196808d-19e7-4cf8-af4b-62f75db4a284)
+![Capturar 3](https://github.com/hugo-andreassa/political-preparedness/assets/50621697/d6d29bd6-c6ef-4fb3-b303-6d2ca3883c82)
+![Capturar 4](https://github.com/hugo-andreassa/political-preparedness/assets/50621697/35d768d2-2530-4927-affb-32bd035aed4b)
+
 ## Dependencies
 
 The app has the following dependencies:
